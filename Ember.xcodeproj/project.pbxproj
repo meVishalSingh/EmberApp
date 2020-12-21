@@ -7,19 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C91261BF2590D6060035ACC9 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91261BE2590D6060035ACC9 /* InputViewController.swift */; };
+		C91261C12590DC9D0035ACC9 /* FuelFormula.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91261C02590DC9D0035ACC9 /* FuelFormula.swift */; };
+		C91261C32590E0B00035ACC9 /* FuelComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91261C22590E0B00035ACC9 /* FuelComposition.swift */; };
+		C91261C52590E5860035ACC9 /* FuelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91261C42590E5860035ACC9 /* FuelData.swift */; };
+		C91261C72590E5970035ACC9 /* FuelProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91261C62590E5970035ACC9 /* FuelProperties.swift */; };
+		C91261C92590ED7C0035ACC9 /* CombustionProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91261C82590ED7C0035ACC9 /* CombustionProducts.swift */; };
+		C91261CB2590EE610035ACC9 /* CalculationBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91261CA2590EE610035ACC9 /* CalculationBrain.swift */; };
+		C91261CD2590F20A0035ACC9 /* EquilibriumConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91261CC2590F20A0035ACC9 /* EquilibriumConstant.swift */; };
+		C91261CF2590F2E10035ACC9 /* EquillibriumCoefficient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91261CE2590F2E10035ACC9 /* EquillibriumCoefficient.swift */; };
+		C91261D12590FDF40035ACC9 /* GuessFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91261D02590FDF40035ACC9 /* GuessFunction.swift */; };
 		C9AC2E7725905BFD00CC976A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AC2E7625905BFD00CC976A /* AppDelegate.swift */; };
 		C9AC2E7925905BFD00CC976A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AC2E7825905BFD00CC976A /* SceneDelegate.swift */; };
-		C9AC2E7B25905BFD00CC976A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AC2E7A25905BFD00CC976A /* ViewController.swift */; };
 		C9AC2E7E25905BFD00CC976A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9AC2E7C25905BFD00CC976A /* Main.storyboard */; };
 		C9AC2E8025905C0000CC976A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9AC2E7F25905C0000CC976A /* Assets.xcassets */; };
 		C9AC2E8325905C0000CC976A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9AC2E8125905C0000CC976A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C91261BE2590D6060035ACC9 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		C91261C02590DC9D0035ACC9 /* FuelFormula.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelFormula.swift; sourceTree = "<group>"; };
+		C91261C22590E0B00035ACC9 /* FuelComposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelComposition.swift; sourceTree = "<group>"; };
+		C91261C42590E5860035ACC9 /* FuelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelData.swift; sourceTree = "<group>"; };
+		C91261C62590E5970035ACC9 /* FuelProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelProperties.swift; sourceTree = "<group>"; };
+		C91261C82590ED7C0035ACC9 /* CombustionProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombustionProducts.swift; sourceTree = "<group>"; };
+		C91261CA2590EE610035ACC9 /* CalculationBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationBrain.swift; sourceTree = "<group>"; };
+		C91261CC2590F20A0035ACC9 /* EquilibriumConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquilibriumConstant.swift; sourceTree = "<group>"; };
+		C91261CE2590F2E10035ACC9 /* EquillibriumCoefficient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquillibriumCoefficient.swift; sourceTree = "<group>"; };
+		C91261D02590FDF40035ACC9 /* GuessFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessFunction.swift; sourceTree = "<group>"; };
 		C9AC2E7325905BFD00CC976A /* Ember.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ember.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9AC2E7625905BFD00CC976A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9AC2E7825905BFD00CC976A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C9AC2E7A25905BFD00CC976A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C9AC2E7D25905BFD00CC976A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C9AC2E7F25905C0000CC976A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9AC2E8225905C0000CC976A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +55,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C91261BB2590D4780035ACC9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C91261C02590DC9D0035ACC9 /* FuelFormula.swift */,
+				C91261C22590E0B00035ACC9 /* FuelComposition.swift */,
+				C91261C42590E5860035ACC9 /* FuelData.swift */,
+				C91261C62590E5970035ACC9 /* FuelProperties.swift */,
+				C91261C82590ED7C0035ACC9 /* CombustionProducts.swift */,
+				C91261CC2590F20A0035ACC9 /* EquilibriumConstant.swift */,
+				C91261CE2590F2E10035ACC9 /* EquillibriumCoefficient.swift */,
+				C91261D02590FDF40035ACC9 /* GuessFunction.swift */,
+				C91261CA2590EE610035ACC9 /* CalculationBrain.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C91261BC2590D4820035ACC9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C9AC2E7C25905BFD00CC976A /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C91261BD2590D4890035ACC9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C91261BE2590D6060035ACC9 /* InputViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		C9AC2E6A25905BFD00CC976A = {
 			isa = PBXGroup;
 			children = (
@@ -56,10 +106,11 @@
 		C9AC2E7525905BFD00CC976A /* Ember */ = {
 			isa = PBXGroup;
 			children = (
+				C91261BB2590D4780035ACC9 /* Model */,
+				C91261BC2590D4820035ACC9 /* View */,
+				C91261BD2590D4890035ACC9 /* Controller */,
 				C9AC2E7625905BFD00CC976A /* AppDelegate.swift */,
 				C9AC2E7825905BFD00CC976A /* SceneDelegate.swift */,
-				C9AC2E7A25905BFD00CC976A /* ViewController.swift */,
-				C9AC2E7C25905BFD00CC976A /* Main.storyboard */,
 				C9AC2E7F25905C0000CC976A /* Assets.xcassets */,
 				C9AC2E8125905C0000CC976A /* LaunchScreen.storyboard */,
 				C9AC2E8425905C0000CC976A /* Info.plist */,
@@ -138,9 +189,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9AC2E7B25905BFD00CC976A /* ViewController.swift in Sources */,
+				C91261CB2590EE610035ACC9 /* CalculationBrain.swift in Sources */,
+				C91261BF2590D6060035ACC9 /* InputViewController.swift in Sources */,
+				C91261C12590DC9D0035ACC9 /* FuelFormula.swift in Sources */,
+				C91261C92590ED7C0035ACC9 /* CombustionProducts.swift in Sources */,
+				C91261C72590E5970035ACC9 /* FuelProperties.swift in Sources */,
 				C9AC2E7725905BFD00CC976A /* AppDelegate.swift in Sources */,
+				C91261C52590E5860035ACC9 /* FuelData.swift in Sources */,
+				C91261D12590FDF40035ACC9 /* GuessFunction.swift in Sources */,
 				C9AC2E7925905BFD00CC976A /* SceneDelegate.swift in Sources */,
+				C91261C32590E0B00035ACC9 /* FuelComposition.swift in Sources */,
+				C91261CF2590F2E10035ACC9 /* EquillibriumCoefficient.swift in Sources */,
+				C91261CD2590F20A0035ACC9 /* EquilibriumConstant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
