@@ -30,7 +30,17 @@ struct CalculationBrain{
     let prec = 1e-3
     let maxIter = 20
     
+    var guessFunction = GuessFunction()
     
+    mutating func getComposition (T: Double, P: Double, phi: Double, fuelID: Int) -> CombustionProducts {
     
-    
+        combustionProduct.n2 = guessFunction.getComposition(T: T, phi: P, P: phi, fuelID: fuelID).y3
+        combustionProduct.o2 = guessFunction.getComposition(T: T, phi: P, P: phi, fuelID: fuelID).y4
+        combustionProduct.co = guessFunction.getComposition(T: T, phi: P, P: phi, fuelID: fuelID).y5
+        combustionProduct.h2 = guessFunction.getComposition(T: T, phi: P, P: phi, fuelID: fuelID).y6
+        
+        return combustionProduct
+        
+    }
+
 }

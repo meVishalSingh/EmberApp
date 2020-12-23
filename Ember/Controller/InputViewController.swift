@@ -15,8 +15,13 @@ class InputViewController: UIViewController {
     @IBOutlet weak var dieselButton: UIButton!
     @IBOutlet weak var methanolButton: UIButton!
     @IBOutlet weak var nitromethaneButton: UIButton!
+    @IBOutlet weak var temperatureTextField: UITextField!
+    @IBOutlet weak var pressureTextField: UITextField!
+    @IBOutlet weak var equivRatioTextField: UITextField!
     
     var fuelType = 0
+    var calculationBrain = CalculationBrain()
+    var combustionProducts = CombustionProducts(co2: 0, h20: 0, n2: 0, o2: 0, co: 0, h2: 0, h: 0, o: 0, oh: 0, no: 0)
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,7 +31,7 @@ class InputViewController: UIViewController {
     
     @IBAction func fuelSelection(_ sender: UIButton) {
         
-        methaneButton.isSelected = false
+        methaneButton.isSelected = true
         gasolineButton.isSelected = false
         dieselButton.isSelected = false
         methanolButton.isSelected = false
@@ -56,12 +61,32 @@ class InputViewController: UIViewController {
         default:
             print("Error in fuel selection")
             
-            }
+        }
     }
     
     @IBAction func calculateButtonPressed(_ sender: Any) {
         
-        print(fuelType)
+        let Ttext = temperatureTextField.text!
+        let Ptext = pressureTextField.text!
+        let phitext = equivRatioTextField.text!
+        
+        if Ttext != ""{
+            if Ptext != ""{
+                if phitext != ""{
+                    let T = Double(Ttext)
+                    let P = Double(Ptext)
+                    let phi = Double(phitext)
+                    
+                    combustionProducts = calculationBrain.getComposition(T: T!, P: P!, phi: phi!, fuelID: fuelType)
+                    
+                    print(String(format: "%.2f", combustionProducts.n2))
+                    print(String(format: "%.2f", combustionProducts.o2))
+                    print(String(format: "%.2f", combustionProducts.co))
+                    print(String(format: "%.2f", combustionProducts.h2))
+                }
+            }
+        }
+        
         
     }
     

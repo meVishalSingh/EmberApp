@@ -17,6 +17,7 @@
 		C91261CD2590F20A0035ACC9 /* EquilibriumConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91261CC2590F20A0035ACC9 /* EquilibriumConstant.swift */; };
 		C91261CF2590F2E10035ACC9 /* EquillibriumCoefficient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91261CE2590F2E10035ACC9 /* EquillibriumCoefficient.swift */; };
 		C91261D12590FDF40035ACC9 /* GuessFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91261D02590FDF40035ACC9 /* GuessFunction.swift */; };
+		C91261D32591E8570035ACC9 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91261D22591E8570035ACC9 /* Error.swift */; };
 		C9AC2E7725905BFD00CC976A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AC2E7625905BFD00CC976A /* AppDelegate.swift */; };
 		C9AC2E7925905BFD00CC976A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AC2E7825905BFD00CC976A /* SceneDelegate.swift */; };
 		C9AC2E7E25905BFD00CC976A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9AC2E7C25905BFD00CC976A /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 		C91261CC2590F20A0035ACC9 /* EquilibriumConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquilibriumConstant.swift; sourceTree = "<group>"; };
 		C91261CE2590F2E10035ACC9 /* EquillibriumCoefficient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquillibriumCoefficient.swift; sourceTree = "<group>"; };
 		C91261D02590FDF40035ACC9 /* GuessFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessFunction.swift; sourceTree = "<group>"; };
+		C91261D22591E8570035ACC9 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		C9AC2E7325905BFD00CC976A /* Ember.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ember.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9AC2E7625905BFD00CC976A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9AC2E7825905BFD00CC976A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				C91261CE2590F2E10035ACC9 /* EquillibriumCoefficient.swift */,
 				C91261D02590FDF40035ACC9 /* GuessFunction.swift */,
 				C91261CA2590EE610035ACC9 /* CalculationBrain.swift */,
+				C91261D22591E8570035ACC9 /* Error.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				C91261CB2590EE610035ACC9 /* CalculationBrain.swift in Sources */,
 				C91261BF2590D6060035ACC9 /* InputViewController.swift in Sources */,
 				C91261C12590DC9D0035ACC9 /* FuelFormula.swift in Sources */,
+				C91261D32591E8570035ACC9 /* Error.swift in Sources */,
 				C91261C92590ED7C0035ACC9 /* CombustionProducts.swift in Sources */,
 				C91261C72590E5970035ACC9 /* FuelProperties.swift in Sources */,
 				C9AC2E7725905BFD00CC976A /* AppDelegate.swift in Sources */,

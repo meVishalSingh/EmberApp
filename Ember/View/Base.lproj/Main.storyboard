@@ -234,10 +234,13 @@
                     </view>
                     <connections>
                         <outlet property="dieselButton" destination="ln5-Tn-7MQ" id="ecL-vw-K01"/>
+                        <outlet property="equivRatioTextField" destination="QKM-XQ-9o3" id="4Ks-av-HrW"/>
                         <outlet property="gasolineButton" destination="J7f-4U-bf4" id="2CU-yY-tr2"/>
                         <outlet property="methaneButton" destination="ps8-ZB-xrS" id="Npe-lO-C25"/>
                         <outlet property="methanolButton" destination="vUU-s9-cwA" id="maP-BJ-tcJ"/>
                         <outlet property="nitromethaneButton" destination="OUF-2R-3lT" id="By5-dd-mBP"/>
+                        <outlet property="pressureTextField" destination="p6t-TD-gZO" id="KhK-j7-TaT"/>
+                        <outlet property="temperatureTextField" destination="rzs-HB-b3I" id="aef-mN-Vft"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

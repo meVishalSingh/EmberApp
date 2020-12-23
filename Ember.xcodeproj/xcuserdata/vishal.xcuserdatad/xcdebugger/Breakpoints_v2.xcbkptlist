@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "129DA591-63D9-4AA5-A1E9-B288B189131A"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E0C7FDF7-DA08-4269-8F25-C12A3CDB1653"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ember/Controller/InputViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "InputViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "E0C7FDF7-DA08-4269-8F25-C12A3CDB1653 - 30b25b07e55a255c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ember.InputViewController.fuelType.getter : Swift.Int"
+                  moduleName = "Ember"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vishal/OneDrive/Research/02%20App/Ember/Ember/Controller/InputViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "110">
+               </Location>
+               <Location
+                  uuid = "E0C7FDF7-DA08-4269-8F25-C12A3CDB1653 - 6a177f9e9d656950"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ember.InputViewController.fuelType.setter : Swift.Int"
+                  moduleName = "Ember"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vishal/OneDrive/Research/02%20App/Ember/Ember/Controller/InputViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "118">
+               </Location>
+               <Location
+                  uuid = "E0C7FDF7-DA08-4269-8F25-C12A3CDB1653 - ad7cbc066a74641"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ember.InputViewController.fuelType.modify : Swift.Int"
+                  moduleName = "Ember"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vishal/OneDrive/Research/02%20App/Ember/Ember/Controller/InputViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "E0C7FDF7-DA08-4269-8F25-C12A3CDB1653 - c7667cef5f311a50"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ember.InputViewController.fuelType.modify : Swift.Int with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Ember"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vishal/OneDrive/Research/02%20App/Ember/Ember/Controller/InputViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "E0C7FDF7-DA08-4269-8F25-C12A3CDB1653 - 72c6b3ee051b81f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ember.InputViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Ember.InputViewController"
+                  moduleName = "Ember"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vishal/OneDrive/Research/02%20App/Ember/Ember/Controller/InputViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "1405">
+               </Location>
+               <Location
+                  uuid = "E0C7FDF7-DA08-4269-8F25-C12A3CDB1653 - 38371d9cc6e2d742"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ember.InputViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Ember.InputViewController&gt;"
+                  moduleName = "Ember"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vishal/OneDrive/Research/02%20App/Ember/Ember/Controller/InputViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "1337">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
